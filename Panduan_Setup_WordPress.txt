@@ -1,0 +1,202 @@
+PANDUAN SETUP WEBSITE WORDPRESS
+
+1.  LOGIN WORDPRESS
+
+Masuk ke: https://domain.com/wp-admin
+
+Apabila plugin WP Hide Login sudah aktif, gunakan:
+https://domain.com/R9-danim
+
+Login menggunakan Username dan Password.
+
+==================================================
+
+2.  INSTALL PLUGIN
+
+Masuk ke: Plugins → Add New
+
+Hapus seluruh plugin yang tidak diperlukan.
+
+Install plugin berikut: - WP Hide Login - All In One SEO
+
+Kemudian klik Activate pada kedua plugin.
+
+==================================================
+
+3.  KONFIGURASI WP HIDE LOGIN
+
+Masuk ke: Settings → WP Hide Login
+
+Ubah Login URL menjadi:
+
+R9-danim
+
+Kemudian klik Save Changes.
+
+==================================================
+
+4.  INSTALL TEMA
+
+Appearance → Themes → Add New → Upload Theme
+
+-   Pilih file tema.
+-   Klik Install Now.
+-   Klik Activate.
+
+==================================================
+
+5.  PENGATURAN ALL IN ONE SEO
+
+All In One SEO → Search Appearance → Advanced
+
+Aktifkan: Use Meta Keywords = Yes
+
+Klik Save Changes.
+
+==================================================
+
+6.  HOMEPAGE
+
+Settings → Reading
+
+Pilih: Static Page
+
+Homepage: Sample Page
+
+Klik Save Changes.
+
+==================================================
+
+7.  PERMALINK
+
+Settings → Permalinks
+
+Pilih: Post Name
+
+Klik Save Changes.
+
+==================================================
+
+8.  EDIT SAMPLE PAGE
+
+Pages → Sample Page
+
+Tekan: Ctrl + Shift + Alt + F
+
+Hapus seluruh isi halaman: Ctrl + A Backspace
+
+==================================================
+
+9.  SEO HALAMAN
+
+Buat menggunakan ChatGPT: - Judul - Meta Description (140-160
+karakter)
+
+Isi: - Judul Halaman - Page Title - Meta Description
+
+Pada tab Advanced isi: - Keyword
+
+Klik Save.
+
+==================================================
+
+10. MEMBUAT HALAMAN AMP
+
+Klik Add Page.
+
+Salin: - Judul - Meta Description
+
+Isi kembali: - Title - Meta Description - Keyword - Canonical URL
+
+Ubah: Slug = amp Template = AMP
+
+Klik Publish.
+
+==================================================
+
+11. CUSTOMIZE
+
+Appearance → Customize → Site Identity
+
+Isi: - Site Title - Tagline
+
+Logo: - Ukuran 70 px - Background transparan - Format WebP
+
+Saat upload: - Alt Text = Keyword - Skip Cropping
+
+Site Icon: - Upload icon - Alt Text = Keyword - Skip Cropping
+
+Klik Publish.
+
+==================================================
+
+12. FRONT SETUP
+
+Customize → Front Setup
+
+Slider Setup: - Buat gambar - Convert ke WebP - Upload - Alt Text =
+Keyword
+
+Outgoing Link: https://rokodus.pages.dev/
+
+Brand Keyword: Isi sesuai keyword.
+
+Klik Publish.
+
+==================================================
+
+13. GOOGLE SEARCH CONSOLE
+
+Tambahkan Properti → Awalan URL
+
+Masukkan domain.
+
+Pilih metode: HTML Tag
+
+Salin Meta Tag.
+
+==================================================
+
+14. PASANG META TAG
+
+Appearance → Theme File Editor
+
+Buka: front-page.php
+
+Paste Meta Tag di bawah tag
+Simpan.
+
+Jika muncul error “Unable to communicate back with site…”
+
+Gunakan: Customize → Front Setup → Meta Tag Panel → Meta Tags
+
+Paste Meta Tag kemudian Publish.
+
+==================================================
+
+15. VERIFIKASI GSC
+
+Klik Verify.
+
+Masuk ke: Sitemaps
+
+Tambahkan: sitemap.xml
+
+Klik Submit.
+
+==================================================
+
+16. REQUEST INDEXING
+
+Inspect URL.
+
+Klik: Request Indexing
+
+Setelah selesai klik: Test Live URL
+
+==================================================
+
+17. SELESAI
+
+Apabila seluruh proses telah berhasil dan Google Search Console
+menunjukkan status berhasil, maka website siap digunakan.
